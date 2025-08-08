@@ -1,5 +1,5 @@
-JobReady AI Resume & Interview Coach Chatbot
-Overview
+#JobReady AI Resume & Interview Coach Chatbot
+##Overview
 JobReady AI is an interactive AI-powered chatbot designed to assist job seekers with interview preparation and resume improvement. Leveraging Google's Gemini API, this chatbot provides:
 
 Interview Questions Generation: Get customized common interview questions and sample answers tailored to your job role.
@@ -10,7 +10,7 @@ Resume Feedback: Paste your resume content and receive detailed feedback along w
 
 All features are accessible via a clean, colorful, and user-friendly web interface served by a Flask backend within a single Python file for easy deployment.
 
-Features
+##Features
 1. Interview Questions Mode
 Enter any job role, e.g., "Electronics Engineer" or "Software Developer."
 
@@ -18,7 +18,7 @@ The bot generates 3 typical interview questions and sample answers specific to t
 
 Provides insights to prepare you for real interviews.
 
-2. Interview Practice Chat Mode
+##2. Interview Practice Chat Mode
 After viewing interview questions, start an interactive chat session.
 
 Practice your answers or ask follow-up questions.
@@ -27,14 +27,14 @@ The bot remembers your prior messages and adapts replies accordingly.
 
 Helps build confidence and improve interview skills dynamically.
 
-3. Resume Feedback Mode
+##3. Resume Feedback Mode
 Paste your resume text into a textbox.
 
 Receive AI-generated feedback highlighting improvements, corrections, and formatting advice.
 
 (Optional Enhancement: support for resume file upload in future versions.)
 
-Technology Stack
+##Technology Stack
 Backend: Python with Flask web framework.
 
 AI Model: Calls Google Gemini API (Generative Language API) for conversational and feedback generation.
@@ -45,11 +45,11 @@ Session Management: Uses cookies and in-memory data structures for maintaining c
 
 API Communication: Uses fetch API for async communication between frontend and backend.
 
-Getting Started
+##Getting Started
 Prerequisites
 Python 3.7+
 
-Access the Application
+##Access the Application
 Open your web browser.
 
 Navigate to http://127.0.0.1:5000.
@@ -58,7 +58,7 @@ Use the dropdown menu to switch between Interview Questions, Interview Practice 
 
 Follow on-screen instructions to input your job role, chat, or paste your resume.
 
-Usage Instructions
+##Usage Instructions
 Interview Questions Mode
 Enter the job role and click Get Interview Questions to receive sample interview questions and answers tailored to your role.
 You can then click Start Practice Chat to enter a conversational mode with AI assistance.
@@ -71,14 +71,14 @@ Resume Feedback Mode
 Paste your resume text into the textbox and click Get Resume Feedback.
 The bot analyzes and returns suggestions for a better, more effective resume.
 
-Notes
+##Notes
 This app uses in-memory session data, meaning session history will reset if the server restarts or if you open the app in a different browser/device.
 
 The AI output aims to be helpful but is not guaranteed perfect—always review suggestions critically.
 
 The current version supports resume text paste only; support for file upload is upcoming.
 
-Potential Improvements
+##Potential Improvements
 Enable uploading PDF/DOCX resume files for direct parsing.
 
 Persist session data in a database or Redis for longer conversations.
